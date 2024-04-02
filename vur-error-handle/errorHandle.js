@@ -1,3 +1,5 @@
+/* 一个简单的vue异常处理脚本 */
+
 function errorHandler(err, vm, info) {
 	console.log('vue异常错误捕获: ', '错误信息 ' + info);
 }
